@@ -15,7 +15,7 @@ const getInfo = async direccion => {
     const temp = await clima.getClima(coords.lat, coords.lng);
     return `El clima de ${coords.direccion} es de ${temp}.`;
   } catch (e) {
-    return ` no se pudo determinar el clima de ${direccion}`;
+    return ` no se pudo determinar el climax de ${direccion}`;
   }
 };
 
